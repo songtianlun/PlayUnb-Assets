@@ -28,6 +28,6 @@ jobs:
           aws_key_id: ${{ secrets.S3_KEY_ID }}
           aws_secret_access_key: ${{ secrets.S3_SECRET_ACCESS_KEY}}
           aws_bucket: ${{ secrets.S3_BUCKET }}
-          source_dir: './'
+          source_dir: 'assets'
           destination_dir: './'
           endpoint: ${{ secrets.S3_ENDPOINT }}
